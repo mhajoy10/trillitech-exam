@@ -1,0 +1,200 @@
+@media only screen and (max-width: 1700px) {
+    img.banner-img {
+        object-position: 100% 85%;
+    }
+}
+@media only screen and (max-width: 1500px) {
+    img.banner-img {
+        object-position: 100% 70%;
+    }
+}
+@media only screen and (max-width: 1200px) {
+    img.banner-img {
+        height: 100%;
+        object-position: 95% 65%;
+    }
+}
+@media only screen and (max-width: 1024px) {
+    .menu-text > p:last-child {
+        font-size: 40px;    
+    }
+    .menu-text > p:first-child {
+        font-size: 14px;
+    }
+    .menu-text {
+        padding: 0 20px;
+        margin-right: 20px;
+    }
+    ul.menus {
+        width: calc(100% - 230px);
+    }   
+    ul.menus li {
+        margin-right: 3vw;
+    }
+}
+@media only screen and (max-width: 991px){
+    .insight-box h3 {
+        font-size: 18px;
+    }
+    .insight-box:nth-child(2) h3 {
+        max-width: 100px;
+    }
+    .insights.events .insight-box h3 {
+        font-size: 16px;
+        line-height: 20px;
+        margin-bottom: 5px;
+    }
+    .event-location > h4 {
+        font-size: 14px;
+    }
+    .insight-box:nth-child(2) {
+        margin: 0 20px;
+    }
+    .insight-img:before {
+        border-bottom: 40px solid #fff;
+        border-left: 40px solid transparent;
+    }
+    .insight-img:after {
+        border-top: 40px solid #fff;
+        border-right: 40px solid transparent;
+    }
+    #slideContent {
+        display: none;
+    }
+    .hamburge-menu{
+        display: block;
+    }
+    .logo {
+        width: 55px;
+        display: block;
+        margin: auto;
+    }
+    .header {
+        padding: 10px 0;
+    }
+    .menu-text {
+        display: none;
+    }
+    div#slideContent {
+        position: absolute;
+        background: #fff;
+        left: 0;
+        width: 100%;
+        padding: 20px;
+    }
+    ul.menus > li a {
+        background: #ebebeb;
+        width: 100%;
+        display: inline-block;
+        text-align: center;
+        padding: 12px;
+        margin-bottom: 10px;
+        color: #6d6d6d;
+    }
+    ul.menus > li {
+        width: 100%;
+        margin:0
+    }
+    ul.menus {
+        width: 100%;
+    }   
+    div#slideContent {
+        z-index: 999;
+    }
+    
+}
+@media only screen and (max-width: 768px){
+    .insights {
+        background: #ebebeb;
+        padding: 15px 0 30px;
+    }
+    .banner-text > h1 {
+        font-size: 30px;
+    }
+    .banner-text > h3 {
+        font-size: 20px;
+    }
+    .event-location:after {
+        width: 10px;
+    }
+    .event-date {
+        padding: 8px 10px;
+    }
+    .event-location:before {
+        border-top: 40px solid #1450d2;
+        border-right: 30px solid transparent;
+        left: 10px;
+    }
+    .event-date > p:last-child {
+        font-size: 18px;
+    }
+    .btn-white > a {
+        padding: 10px 25px;
+    }
+    img.banner-img {
+        height: 100%;
+        object-position: 93% 95%;
+        zoom: 45%;
+    }
+    .banner-text {
+        padding: 100px 0;
+        max-width: 375px;
+    }
+  
+    
+}
+@media only screen and (max-width: 688px){
+    .insight-box {
+        max-width: 300px;
+        margin-bottom: 20px;
+        width:100%;
+    }
+    .insight-box:last-child {
+        margin-bottom: 0;
+    }
+    .insight-box:nth-child(2) {
+        margin-right: 0;
+    }
+    .insight-container {
+        text-align: center;
+    }
+    .insights.events .insight-box {
+        text-align: left;
+    }
+    .insight-content {
+        text-align: left;
+    }
+}
+@media only screen and (max-width: 653px){
+    .insight-box:nth-child(2) {
+        margin: 0 0 20px 0;
+    }
+    .about p {
+        font-size: 15px;
+    }
+    h2, .banner-text > h1 {
+        font-size: 25px;
+    }
+    .banner-text > h3 {
+        font-size: 18px;
+    }
+    h3 {
+        font-size: 20px;
+    }
+    .insight-box h3 {
+        font-size: 16px;
+    }
+    .about {
+        padding: 50px 0;
+    }
+    .banner-text {
+        padding: 80px 0;
+    }
+}
+
+@media only screen and (max-width: 380px){
+    .footer-left, .footer-right {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+} 
